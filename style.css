@@ -1,0 +1,225 @@
+body {
+/* Background pattern from Subtle Patterns used for educational purposes
+ *   https://www.toptal.com/designers/subtlepatterns/binding-dark/ */
+  background-image: url("https://cdn.glitch.com/84bb949f-47ef-45f7-b716-ea4f2d41715e%2Fbg.png?1502862054145");
+/* End reference  */
+  font-family: 'Raleway';
+}
+
+.navheader  {
+  background-color: #E84545;
+  height: 110px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+header {
+  padding: 20px 0 0 30px;
+  color: white;
+}
+
+header h1 {
+  font-size: 64px;
+  font-family: 'Pacifico';
+
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+main {
+  color:white;
+}
+
+footer{
+  background-color: #E84545;
+  margin-top: 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  margin: 5px 5px 0 5px;
+}
+
+footer p {
+  color: white;
+  margin: 5px 5px 0 5px;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+nav a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.fa-search {
+  margin: 0 12px;
+}
+
+.movies {
+  margin: 20px 0;
+}
+
+.movie-left {
+  position: relative;
+  left: 10px;
+}
+
+.movie-right {
+  position: relative;
+  right: 10px;
+}
+
+.reopening {
+  background-color: #2b9eb3;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #195e6b;
+  color: black;
+}
+
+.reopeningImg {
+  width: 420px;
+  height: 315px;
+  float: left;
+  margin: 0 5px 5px 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.pricing {
+  text-align: center;
+  background-color: #111111;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #111111;
+  margin-top: 20px;
+}
+
+iframe {
+  float: left;
+  padding: 0 5px 5px 5px;
+}
+
+main > div > div > div > img {
+  height: 400px;
+  width: 300px;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  display: inline;
+  padding-right: 30px;
+  color: white;
+}
+
+strong {
+  font-weight: bold;
+}
+
+fieldset strong {
+  font-weight: 1000;
+  font-size: 32px;
+}
+
+fieldset label {
+  font-weight: 200;
+}
+
+.ticket {
+  color: black;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.ticket h1 {
+  font-size: 30px;
+}
+
+.ticket h2 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#confirmBooking p {
+  color: white;
+}
+
+.invalidInput {
+  border: 2px dashed red;
+}
+
+h4 {
+  color: white;
+}
+
+.confirmTicket {
+  font-size: 16px;
+  float: left;
+  clear: both;
+  
+  color: black;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px 20px 0 20px;
+}
+
+.right-float {
+  float: right;
+}
+
+.left-float {
+  float: left;
+}
+
+.reset-float {
+  clear: both;
+}
+
+.dotted {
+  border-top: 3px dotted #000000;
+}
+
+.solid {
+  border-top: 5px solid #000000;
+}
